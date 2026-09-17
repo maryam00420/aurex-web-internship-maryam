@@ -1,0 +1,24 @@
+/* =========================
+   ANIMATIONS - KEYFRAMES
+========================= */
+
+/* Fade-in on page load */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.project-card {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+/* Button ripple/scale effect */
+@keyframes ripple {
+  0% { transform: scale(0.95); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.project-card button:active {
+  animation: ripple 0.4s ease;
+}
