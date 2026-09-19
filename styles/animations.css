@@ -9,7 +9,7 @@
 }
 
 .project-card {
-  animation: fadeIn 0.8s ease forwards;
+  animation: fadeIn 0.8s ease;
 }
 
 /* Button ripple/scale effect */
@@ -21,4 +21,20 @@
 
 .project-card button:active {
   animation: ripple 0.4s ease;
+}
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.project-card button {
+    transition: transform 0.2s ease;
+}
+
+.project-card button:hover {
+    transform: scale(1.08);
 }
