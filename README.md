@@ -62,3 +62,33 @@ The main challenge was making the website responsive for different screen sizes.
   Mobile view
 Live deployment
  Screenshots
+ Week 3: Advanced CSS, Grid & Animations
+
+**Name:** Maryam Butt
+**Domain:** Full-Stack Web Development
+**Week:** 3
+
+**Live Deployment:** https://maryam00420.github.io/aurex-web-internship-maryam/
+
+CSS Grid Layouts
+- Project showcase gallery built with CSS Grid using `repeat(auto-fit, minmax(...))`, so cards adjust automatically to the screen width.
+- Grid is combined with Flexbox for aligning content inside each card.
+- Layout is responsive from mobile to desktop without horizontal scrolling.
+
+ Keyframe Animations & Transitions
+- Page load fade-in animation on sections.
+- Card hover elevation effect (lift with shadow).
+- Button hover scale effect.
+- All animations are written in `styles/animations.css`.
+
+ Responsive & Performance Testing
+- Mobile: layout switches to a single column, no horizontal scroll.
+- Tablet: cards arrange in 2 columns.
+- Desktop: multi-column grid displays correctly.
+- Tested on Chrome (live deployment on GitHub Pages).
+
+ Folder Structure
+- `index.html`
+- `styles/main.css`
+- `styles/animations.css`
+- `README.md`
